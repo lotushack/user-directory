@@ -1,0 +1,27 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+article{
+  display: inline-block;
+  border: 1px solid red;
+  width: 23%;
+  margin-right: 17px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+article :after{
+  clear: both;
+}
+
+.user-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+h3{
+  color: blue;
+}
