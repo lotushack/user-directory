@@ -1,6 +1,11 @@
 body{
   margin: 0;
   padding: 0;
+  font-family: 'Saira Condensed', sans-serif;
+}
+
+.singleUser{
+  font-size: x-large;
 }
 
 article{
@@ -24,4 +29,44 @@ article :after{
 
 h3{
   color: blue;
+}
+
+.whole-container{
+  margin-top: 4%;
+  margin-left: 30%;
+}
+.top-container{
+  display: flex;
+align-items: flex-end;
+}
+
+.bottom-container{
+margin-left: 12%;
+}
+
+.single-pic{
+  width: 170px;
+  height: 170px;
+  border: 1px solid lightgrey;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+
+b{
+  font-size:
+}
+
+li{
+  list-style-type: none;
+  /*padding-left: 16%;*/
+}
+
+.text{
+  line-height: 18px;
+}
+
+ul{
+  margin-top: -28px;
+  margin-left: 40px;
+
 }

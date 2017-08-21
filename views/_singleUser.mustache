@@ -1,0 +1,18 @@
+    <div class="whole-container">
+      <div class="top-container">
+        <img class="single-pic" src="{{avatar}}" alt="{{name}}">
+      <div class="text">
+        <h1>{{name}}</h1>
+          <p>{{address.city}},{{address.country}} | {{job}}{{^job}}<span style="color: red">Available for work{{/job}}</span>{{company}}</p>
+          <p>{{email}} | {{phone}}</p>
+        </div>
+      </div>
+      <div class="bottom-container">
+        <p><b>Education:</b> {{university}}</p></p>
+        <div class="skills"><b>Skills:</b>
+          <ul>{{#skills}}</nobr>
+            <li>{{.}}</li>
+          {{/skills}}</ul>
+        </div>
+      </div>
+    </div>
